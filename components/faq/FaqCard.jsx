@@ -38,16 +38,10 @@ const FaqCard = ({ faq, isOpen, onClick }) => {
       )}
 
       <span
-        className={`w-[101px] h-[101px] rounded-full absolute top-0 right-0 blur-[120px] z-0`}
-        style={{ background: `${faq.accentColor}/[0.32]` }}
+        className={`w-[101px] h-[101px] rounded-full absolute top-0 right-0 bg-[#006AFF] blur-[120px] z-0`}
       ></span>
 
-      <span
-        className="w-[500px] absolute left-[301px] blur-[120px] z-0 h-[130px] bg-radial rounded-full"
-        style={{
-          background: `radial-gradient(circle, ${faq.gradientColor} 0%, ${faq.gradientColor}/[0.0] 70%)`,
-        }}
-      ></span>
+      <span className="w-[500px] absolute left-[301px] blur-[120px] z-0 h-[130px] bg-[#006AFF]/[0.10] rounded-full"></span>
 
       {/* Additional colorful shadow spans */}
       <span className="w-[101px] h-[101px] bg-[#006AFF]/[0.32] rounded-full absolute top-0 right-0 blur-[120px] z-0"></span>

@@ -33,7 +33,7 @@ const faqData = [
     answer:
       "Workspace billing is simple and transparent. You're billed monthly based on your selected plan, with the option to upgrade or downgrade at any time. Team workspaces are charged per seat, with discounts for annual commitments. All team members get full access to features included in your plan, and admins can easily manage seats and permissions from the dashboard.",
     accentColor: "#A793FF",
-    gradientColor: "#BE8AFF",
+    gradientColor: "#A793FF",
     hasDotsImage: true,
     direction: "left",
   },
