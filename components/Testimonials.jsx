@@ -97,7 +97,7 @@ const Testimonials = () => {
   return (
     <section
       ref={sectionRef}
-      className="w-full py-10 lg:py-68 overflow-hidden relative"
+      className="w-full pt-10 lg:pt-68 overflow-hidden relative"
     >
       <div className="text-center ">
         <div className="absolute -top-0 left-1/2 -translate-x-1/2 z-0 ">
