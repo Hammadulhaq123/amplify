@@ -6,6 +6,8 @@ import React from "react";
 import Plans from "@/components/Plans";
 import Faq from "@/components/Faq";
 import Footer from "@/components/Footer";
+import Testimonials from "@/components/Testimonials";
+
 const LandingPage = () => {
   return (
     <div className="w-full h-auto flex flex-col justify-start items-start bg-[#010101] text-white">
@@ -14,6 +16,7 @@ const LandingPage = () => {
       <Features />
       <WhyChooseUs />
       {/* <Plans /> */}
+      <Testimonials />
       <Faq />
       <Footer />
     </div>
