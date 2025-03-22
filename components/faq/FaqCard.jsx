@@ -41,11 +41,11 @@ const FaqCard = ({ faq, isOpen, onClick }) => {
         className={`w-[101px] h-[101px] rounded-full absolute top-0 right-0 bg-[#006AFF] blur-[120px] z-0`}
       ></span>
 
-      <span className="w-[500px] absolute left-[301px] blur-[120px] z-0 h-[130px] bg-[#006AFF]/[0.10] rounded-full"></span>
+      <span className="w-full lg:w-[500px] absolute left-0 lg:left-[301px] blur-[120px] z-0 h-[130px] bg-[#006AFF]/[0.10] rounded-full"></span>
 
       {/* Additional colorful shadow spans */}
       <span className="w-[101px] h-[101px] bg-[#006AFF]/[0.32] rounded-full absolute top-0 right-0 blur-[120px] z-0"></span>
-      <span className="w-[500px] absolute left-[301px] blur-[120px] z-0 h-[130px] bg-radial from-[#5EBCFF] to-[#5EBCFF]/[0.0] rounded-full"></span>
+      <span className="w-full lg:w-[500px] absolute left-0 lg:left-[301px] blur-[120px] z-0 h-[130px] bg-radial from-[#5EBCFF] to-[#5EBCFF]/[0.0] rounded-full"></span>
 
       <div
         type="button"

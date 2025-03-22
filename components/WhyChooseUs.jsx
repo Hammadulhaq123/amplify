@@ -167,7 +167,7 @@ const WhyChooseUs = () => {
 
       <motion.div
         ref={cardsContainerRef}
-        className="w-full h-auto lg:w-[1160px] lg:h-[440px] z-30 relative"
+        className="w-full h-auto lg:w-[1160px] p-2 lg:p-0 lg:h-[440px] z-30 relative"
         variants={containerVariants}
         initial="hidden"
         animate={isCardsInView ? "visible" : "hidden"}
@@ -186,7 +186,7 @@ const WhyChooseUs = () => {
           }}
           transition={{ duration: 0.3 }}
         >
-          <div className="w-full h-auto grid grid-cols-3 justify-between items-center gap-[28px]">
+          <div className="w-full h-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-between items-center gap-[28px]">
             {cardData?.map((card, index) => (
               <Card
                 key={card?.id}
@@ -206,7 +206,7 @@ const WhyChooseUs = () => {
                 "radial-gradient(50% 50% at 50% 50%, #6B49FF 0%, #6B49FF 100%)",
               filter: "blur(70px)",
             }}
-            className="w-[349px] h-[98px] -z-10 absolute top-[120px] left-1/2 -translate-x-1/2 -translate-y-1/2"
+            className="w-[349px] h-[98px] -z-10 absolute top-0 lg:top-[120px] left-1/2 -translate-x-1/2 -translate-y-1/2"
             animate={{
               opacity: [0.4, 0.8, 0.4],
               scale: [0.9, 1.05, 0.9],
@@ -223,7 +223,7 @@ const WhyChooseUs = () => {
                 "radial-gradient(50% 50% at 50% 50%, #6B49FF 0%, #6B49FF 100%)",
               filter: "blur(90px)",
             }}
-            className="w-[667px] h-[290px] -z-10 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
+            className="w-[667px] h-[290px] -z-10 absolute top-0 lg:top-1/2 left-1/2 -translate-x-1/2 lg:-translate-y-1/2"
             animate={{
               opacity: [0.3, 0.7, 0.3],
               scale: [1, 1.1, 1],

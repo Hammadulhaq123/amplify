@@ -55,9 +55,9 @@ const Footer = () => {
   return (
     <div
       ref={sectionRef}
-      className="w-full flex items-center z-50 mb-0 mt-20 justify-start text-center flex-col gap-20 relative overflow-hidden"
+      className="w-full flex items-center z-30 mb-0 mt-20 justify-start text-center flex-col gap-20 relative overflow-hidden"
     >
-      <div className="w-auto flex flex-col justify-center items-center gap-0">
+      <div className="w-auto flex flex-col justify-center z-10 items-center gap-0">
         <h1 className="bg-gradient-to-r text-[48px] z-30 font-medium leading-[71px] tracking-[-3.2%] from-[#989CA5] via-white to-[#989CA5] inline-block text-transparent bg-clip-text">
           Get Started
         </h1>
@@ -100,7 +100,19 @@ const Footer = () => {
         </motion.div>
       </div>
 
-      <div className="w-full flex flex-col items-center justify-start">
+      <img
+        src="/extras/footer_shadow.png"
+        alt="footer_bg"
+        className="absolute top-0 left-0 w-full h-full z-0"
+      />
+
+      <img
+        src="/extras/footer_lines.png"
+        alt="footer_bg"
+        className="absolute top-0 left-0 w-full h-full z-0"
+      />
+
+      <div className="w-full flex flex-col z-10 items-center justify-start">
         <div
           className="w-full h-[1px]"
           style={{

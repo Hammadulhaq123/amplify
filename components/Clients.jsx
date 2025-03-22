@@ -57,7 +57,7 @@ const Clients = () => {
 
         <div className="flex overflow-hidden relative w-full h-full">
           <motion.div
-            className="flex items-center gap-[100px] absolute whitespace-nowrap h-full"
+            className="flex items-center gap-2 md:gap-6 lg:gap-[100px] absolute whitespace-nowrap h-full"
             animate={{
               x: [0, -50 * data.length * 2],
             }}

@@ -4,7 +4,7 @@ import { HiOutlineArrowLongRight } from "react-icons/hi2";
 
 const EaseOfUseCard = () => {
   return (
-    <div className="w-[600px] h-[400px] p-[1px] bg-radial rounded-[12px] from-[#3B6BBF]  to-[#132B57]  ">
+    <div className="w-full  lg:w-[600px] h-[400px] p-[1px] bg-radial rounded-[12px] from-[#3B6BBF]  to-[#132B57]  ">
       <div className="w-full h-full rounded-[11px] bg-gradient-to-r from-[#08152B] via-[#10141A] to-[#0D1014]  relative overflow-hidden">
         <span className="w-[321px] h-[321px] rounded-full bg-[#006AFF]/[0.28]  absolute top-[260px] left-[-41px]   blur-[80px]"></span>
         <span className="w-[321px] h-[321px] rounded-full bg-[#7050ff]/[0.28]  absolute top-[23px] left-[348px]   blur-[80px]"></span>

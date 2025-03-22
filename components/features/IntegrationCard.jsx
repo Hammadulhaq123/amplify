@@ -4,7 +4,7 @@ import { HiOutlineArrowLongRight } from "react-icons/hi2";
 
 const IntegrationCard = () => {
   return (
-    <div className="w-[540px] h-[440px] p-[1px] bg-radial rounded-[12px] from-[#3B6BBF]  to-[#132B57]  ">
+    <div className="w-full md:w-full lg:w-[540px] h-[440px] p-[1px] bg-radial rounded-[12px] from-[#3B6BBF]  to-[#132B57]  ">
       <div className="w-full h-full rounded-[11px] bg-gradient-to-r from-[#08152B] via-[#10141A] to-[#0D1014]  overflow-hidden relative">
         <span className="w-[240px] h-[240px] rounded-full bg-[#006AFF]/[0.28]  absolute top-[12px] left-[47px]   blur-[80px]"></span>
         <span className="w-[240px] h-[240px] rounded-full bg-[#7050ff]/[0.28]  absolute top-[104px] left-[246px]   blur-[80px]"></span>

@@ -130,7 +130,7 @@ const Faq = () => {
     <motion.div
       ref={sectionRef}
       id="faqs"
-      className="w-full flex items-center z-50 mb-6 mt-44 overflow-visible justify-center text-center flex-col gap-[40px] relative"
+      className="w-full flex items-center z-50 mb-6 mt-44 overflow-hiddenlg:overflow-visible justify-center text-center flex-col gap-[40px] relative"
       initial="hidden"
       whileInView="visible"
       viewport={{ once: false, amount: 0.1 }}
@@ -144,7 +144,7 @@ const Faq = () => {
         },
       }}
     >
-      <div className="absolute -top-1/4 left-1/2 -translate-x-1/2 opacity-20 w-[834px] h-[548px] rounded-full bg-radial from-[#A793FF] to-[#A793FF]/[0.0]  blur-[80px]" />{" "}
+      <div className="absolute -top-1/4 left-1/2 -translate-x-1/2 opacity-20 w-full lg:w-[834px] h-[548px] rounded-full bg-radial from-[#A793FF] to-[#A793FF]/[0.0]  blur-[80px]" />{" "}
       {/* Animated background elements */}
       <motion.div
         className="absolute inset-0 -z-20 pointer-events-none"
@@ -157,8 +157,8 @@ const Faq = () => {
           ease: "easeInOut",
         }}
       >
-        <div className="absolute top-1/3 right-1/4 w-[400px] h-[400px] rounded-full bg-[#6B49FF] opacity-10 blur-[150px]" />
-        <div className="absolute bottom-1/3 left-1/4 w-[300px] h-[300px] rounded-full bg-[#49A3FF] opacity-10 blur-[130px]" />
+        <div className="absolute top-1/3 right-1/4 w-full lg:w-[400px] h-[400px] rounded-full bg-[#6B49FF] opacity-10 blur-[150px]" />
+        <div className="absolute bottom-1/3 left-1/4 w-full lg:w-[300px] h-[300px] rounded-full bg-[#49A3FF] opacity-10 blur-[130px]" />
       </motion.div>
       <div className="w-full h-auto flex flex-col gap-8 justify-start items-center">
         <motion.h1

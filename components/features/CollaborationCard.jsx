@@ -4,7 +4,7 @@ import { HiOutlineArrowLongRight } from "react-icons/hi2";
 
 const CollaborationCard = () => {
   return (
-    <div className="w-[480px] h-[400px] p-[1px] bg-radial rounded-[12px] from-[#3B6BBF]  to-[#132B57]  ">
+    <div className="w-full  lg:w-[480px] h-[400px] p-[1px] bg-radial rounded-[12px] from-[#3B6BBF]  to-[#132B57]  ">
       <div className="w-full h-full rounded-[11px] bg-gradient-to-r from-[#08152B] via-[#10141A] to-[#0D1014] relative overflow-hidden ">
         <div className="w-auto flex flex-col justify-start items-start absolute top-[20px] left-[20px] gap-[16px]">
           <div className="w-auto flex flex-col justify-start items-start text-left  gap-[6px]">
