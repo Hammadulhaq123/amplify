@@ -43,21 +43,21 @@ const Testimonials = () => {
       position: "UI/UX Designer",
       testimonial:
         "The animations are top-notch and the interface is so clean. I've recommended it to all my design colleagues for their projects!",
-      image: "/users/user_cl3.svg",
+      image: "/users/user_cl.svg",
     },
     {
       name: "David T.",
       position: "Frontend Developer",
       testimonial:
         "As a developer, I appreciate how well-structured and performant the animations are. It's made our website feel so much more professional.",
-      image: "/users/user_cl4.svg",
+      image: "/users/user_cr.svg",
     },
     {
       name: "Jessica P.",
       position: "Marketing Director",
       testimonial:
         "Our conversion rates have improved by 25% since implementing these animations on our landing pages. The ROI speaks for itself!",
-      image: "/users/user_cl5.svg",
+      image: "/users/user_c.svg",
     },
   ];
 
@@ -97,7 +97,7 @@ const Testimonials = () => {
   return (
     <section
       ref={sectionRef}
-      className="w-full pt-10 lg:pt-68 overflow-hidden relative"
+      className="w-full pt-10 lg:pt-68 lg:overflow-hidden relative"
     >
       <div className="text-center ">
         <div className="absolute -top-0 left-1/2 -translate-x-1/2 z-0 ">
@@ -105,7 +105,7 @@ const Testimonials = () => {
         </div>
       </div>
 
-      <div className=" w-auto h-40 absolute top-36 left-1/2 -translate-x-1/2 z-10">
+      <div className=" w-auto h-40 static lg:absolute top-36 left-1/2 lg:-translate-x-1/2 z-10">
         <div
           ref={titleRef}
           className="w-full flex items-center justify-start text-center flex-col"
@@ -133,7 +133,7 @@ const Testimonials = () => {
       <div className="w-full overflow-hidden mb-8">
         <div className="relative w-full">
           <span
-            className="w-[280px] h-full absolute left-0 top-0 z-10"
+            className="w-4 lg:w-[280px] h-full absolute left-0 top-0 z-10"
             style={{
               background:
                 "linear-gradient(90deg, #010101 0%, rgba(1, 1, 1, 0) 100%)",
@@ -167,7 +167,7 @@ const Testimonials = () => {
           </motion.div>
 
           <span
-            className="w-[280px] h-full absolute right-0 top-0 z-10"
+            className="w-4 lg:w-[280px] h-full absolute right-0 top-0 z-10"
             style={{
               background:
                 "linear-gradient(270deg, #010101 0%, rgba(1, 1, 1, 0) 100%)",
@@ -180,7 +180,7 @@ const Testimonials = () => {
       <div className="w-full overflow-hidden">
         <div className="relative w-full">
           <span
-            className="w-[280px] h-full absolute left-0 top-0 z-10"
+            className="w-4 lg:w-[280px] h-full absolute left-0 top-0 z-10"
             style={{
               background:
                 "linear-gradient(90deg, #010101 0%, rgba(1, 1, 1, 0) 100%)",
@@ -214,7 +214,7 @@ const Testimonials = () => {
           </motion.div>
 
           <span
-            className="w-[280px] h-full absolute right-0 top-0 z-10"
+            className="w-4 lg:w-[280px] h-full absolute right-0 top-0 z-10"
             style={{
               background:
                 "linear-gradient(270deg, #010101 0%, rgba(1, 1, 1, 0) 100%)",
@@ -224,8 +224,8 @@ const Testimonials = () => {
       </div>
 
       {/* Background elements */}
-      <div className="absolute left-0 top-1/4 w-64 h-64 bg-[#0099FF]/10 rounded-full filter blur-[120px] -z-10" />
-      <div className="absolute right-0 bottom-1/4 w-64 h-64 bg-[#6B49FF]/10 rounded-full filter blur-[120px] -z-10" />
+      <div className="hidden lg:block absolute left-0 top-1/4 w-64 h-64 bg-[#0099FF]/10 rounded-full filter blur-[120px] -z-10" />
+      <div className="hidden lg:block absolute right-0 bottom-1/4 w-64 h-64 bg-[#6B49FF]/10 rounded-full filter blur-[120px] -z-10" />
     </section>
   );
 };
