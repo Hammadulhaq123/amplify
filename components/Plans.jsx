@@ -71,7 +71,7 @@ const Plans = () => {
         />
       </div>
 
-      <div className="flex flex-col lg:flex-row gap-8 mt-4 z-10">
+      <div className="flex flex-col lg:flex-row gap-8 p-2 lg:p-0 mt-4 z-10">
         {pricingPlans?.map((plan, index) => (
           <PricingCard
             key={index}
