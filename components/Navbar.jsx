@@ -152,7 +152,7 @@ const Navbar = () => {
 
       {/* Mobile Navigation Menu */}
       <motion.div
-        className="w-[95%] md:hidden z-20 mx-auto rounded-xl overflow-hidden border-[0.8px] border-white/[0.12] bg-gradient-to-r from-[#171D2D] to-[#040B1D] -mt-6"
+        className="w-[95%] md:hidden absolute top-32  z-50 mx-auto rounded-xl overflow-hidden border-[0.8px] border-white/[0.12] bg-gradient-to-r from-[#171D2D] to-[#040B1D] -mt-6"
         initial="closed"
         animate={isMenuOpen ? "open" : "closed"}
         variants={mobileMenuVariants}
