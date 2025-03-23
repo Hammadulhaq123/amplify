@@ -192,7 +192,7 @@ const Hero = () => {
     >
       <Navbar />
       <div className="w-[95%] md:w-[90%] lg:w-full flex items-center z-30 mt-4 sm:mt-6 justify-start text-center flex-col gap-[20px] md:gap-[30px]">
-        <h1 className="typewriter-container bg-gradient-to-r text-[36px] sm:text-[48px] md:text-[56px] lg:text-[64px] font-medium leading-[1.15] md:leading-[71px] tracking-[-3.2%] from-[#989CA5] via-white to-[#989CA5] inline-block text-transparent bg-clip-text min-h-[100px] md:min-h-[142px] px-4 lg:px-0">
+        <h1 className="typewriter-container  h-40 md:h-56 lg:h-24 bg-gradient-to-r text-[36px] sm:text-[48px] md:text-[56px] lg:text-[64px] font-medium leading-[1.15] md:leading-[71px] tracking-[-3.2%] from-[#989CA5] via-white to-[#989CA5] inline-block text-transparent bg-clip-text min-h-[100px] md:min-h-[142px] px-4 lg:px-0">
           {firstLine}
           <br />
           <span className="dynamic-text">{dynamicText}</span>
@@ -257,10 +257,11 @@ const Hero = () => {
               priority
             />
           </motion.div>
+
           <motion.div
-            variants={centerImageVariants}
-            initial="hidden"
-            animate={isInView ? "visible" : "hidden"}
+            // variants={centerImageVariants}
+            // initial="hidden"
+            // animate={isInView ? "visible" : "hidden"}
             key="center-image"
           >
             <Image
