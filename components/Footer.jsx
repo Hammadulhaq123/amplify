@@ -166,9 +166,9 @@ const Footer = () => {
                 contact@animify.com
               </motion.a>
             </motion.div>
-            <div className=""></div>
+            <div className="block md:hidden lg:block"></div>
             <>
-              <div className="grid grid-cols-2   text-left">
+              <div className="grid grid-cols-2 md:col-span-2 lg:col-span-1   text-left">
                 <div className="space-y-6">
                   <motion.h3
                     className="text-white text-[20px] font-semibold leading-[100%] tracking-[0%] "

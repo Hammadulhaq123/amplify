@@ -130,7 +130,7 @@ const Faq = () => {
     <motion.div
       ref={sectionRef}
       id="faqs"
-      className="w-full flex items-center z-50 mb-6 mt-44 overflow-hiddenlg:overflow-visible justify-center text-center flex-col gap-[40px] relative"
+      className="w-full flex items-center z-50 mb-6  mt-44 overflow-hiddenlg:overflow-visible justify-center text-center flex-col gap-[40px] relative"
       initial="hidden"
       whileInView="visible"
       viewport={{ once: false, amount: 0.1 }}
@@ -175,7 +175,7 @@ const Faq = () => {
           ref={accordionContainerRef}
           id="accordion-collapse"
           data-accordion="collapse"
-          className="w-full lg:w-[748px] flex flex-col gap-4"
+          className="w-full lg:w-[748px] flex flex-col gap-4 p-2 lg:p-0"
           initial="hidden"
           animate={isAccordionContainerInView ? "visible" : "hidden"}
           variants={{

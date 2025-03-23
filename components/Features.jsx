@@ -184,13 +184,13 @@ const Features = () => {
       <div className="w-full flex flex-col justify-center items-center gap-[15px] sm:gap-[20px] lg:gap-[20px] mt-6 md:mt-8 lg:mt-10">
         <motion.div
           ref={cardsRowOneRef}
-          className="w-full md:w-full flex flex-col lg:flex-row items-center justify-center gap-[15px] relative"
+          className="w-full md:w-full flex flex-col md:flex-row items-center justify-center gap-[15px] relative"
           variants={cardRowVariants}
           custom={0}
           animate={isRowOneInView ? "visible" : "hidden"}
         >
           <motion.div
-            className="row-one-card w-[90%] sm:w-[80%] md:w-full lg:w-auto"
+            className="row-one-card w-[90%] sm:w-[80%] md:w-1/2 lg:w-auto"
             variants={leftCardVariants}
             animate={isRowOneInView ? ["visible", "collision"] : "hidden"}
           >
@@ -217,7 +217,7 @@ const Features = () => {
           )}
 
           <motion.div
-            className="row-one-card w-[90%] sm:w-[80%] md:w-full lg:w-auto"
+            className="row-one-card w-[90%] sm:w-[80%] md:w-1/2 lg:w-auto"
             variants={rightCardVariants}
             animate={isRowOneInView ? ["visible", "collision"] : "hidden"}
           >
@@ -227,13 +227,13 @@ const Features = () => {
 
         <motion.div
           ref={cardsRowTwoRef}
-          className="w-full md:w-full flex flex-col lg:flex-row items-center justify-center gap-[15px] relative"
+          className="w-full md:w-full flex flex-col md:flex-row items-center justify-center gap-[15px] relative"
           variants={cardRowVariants}
           custom={1}
           animate={isRowTwoInView ? "visible" : "hidden"}
         >
           <motion.div
-            className="row-two-card w-[90%] sm:w-[80%] md:w-full lg:w-auto"
+            className="row-two-card w-[90%] sm:w-[80%] md:w-1/2 lg:w-auto"
             variants={leftCardVariants}
             animate={isRowTwoInView ? ["visible", "collision"] : "hidden"}
           >
@@ -260,7 +260,7 @@ const Features = () => {
           )}
 
           <motion.div
-            className="row-two-card w-[90%] sm:w-[80%] md:w-full lg:w-auto "
+            className="row-two-card w-[90%] sm:w-[80%] md:w-1/2 lg:w-auto "
             variants={rightCardVariants}
             animate={isRowTwoInView ? ["visible", "collision"] : "hidden"}
           >

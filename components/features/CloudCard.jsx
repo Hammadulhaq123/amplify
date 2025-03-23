@@ -30,7 +30,7 @@ const CloudCard = () => {
           width={290}
           height={290}
           alt="feature1"
-          className="absolute top-[25px] left-[126px] z-30"
+          className="absolute top-[25px] left-1/2 -translate-x-1/2 lg:-translate-x-0 lg:left-[126px] z-30"
         />
       </div>
     </div>

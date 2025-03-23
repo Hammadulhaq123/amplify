@@ -32,7 +32,7 @@ const CollaborationCard = () => {
           width={397}
           height={198}
           alt="user_dummy"
-          className="absolute top-[158px] left-[42px] z-20"
+          className="absolute top-[190px] lg:top-[158px] left-1/2 -translate-x-1/2 lg:-translate-x-0 scale-90 lg:scale-100 lg:left-[42px] z-20"
         />
         <Image
           src={"/users/dotted_bg.svg"}
@@ -42,7 +42,7 @@ const CollaborationCard = () => {
           className="absolute top-[55px] left-[-15px] z-0"
         />
 
-        <button className="outline-none w-[113px] h-[47px] z-30 rounded-full  bg-gradient-to-r from-[#12131A] via-[#191D32] to-[#272E4D] flex items-center justify-center text-[14px] font-normal leading-[100%] tracking-[-0.41%] cursor-pointer absolute top-[312px] left-[184px]">
+        <button className="outline-none w-[113px] h-[47px] z-30 rounded-full  bg-gradient-to-r from-[#12131A] via-[#191D32] to-[#272E4D] flex items-center justify-center text-[14px] font-normal leading-[100%] tracking-[-0.41%] cursor-pointer absolute scale-90 lg:scale-100 top-[312px] left-1/2 -translate-x-1/2 lg:-translate-x-0 lg:left-[184px]">
           <Image
             src={"/users/collaboration_btn.svg"}
             width={113}
